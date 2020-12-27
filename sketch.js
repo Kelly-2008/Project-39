@@ -103,7 +103,7 @@ function draw(){
     text("reach his Goal for the Day", 70, 370);
   }  
 
-    if(score == 1){
+    if(score == 15){
       coinGroup.destroyEach();
       obstacleGroup.destroyEach();
       track.velocityX = 0;
